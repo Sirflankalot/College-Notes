@@ -1,1 +1,1 @@
-add_notes(NAME STAT213)
+add_notes(NAME STAT213 FILES "2017-09-18 Class 07.md" "2017-09-25 Class 08.md")

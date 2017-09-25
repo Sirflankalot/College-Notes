@@ -10,8 +10,8 @@ function(add_notes)
 		get_filename_component(OUTPUT_NAME ${CMAKE_CURRENT_BINARY_DIR}/${file} NAME_WE)
 
 		add_custom_command(OUTPUT ${OUTPUT_NAME}.html
-			               COMMAND pandoc ARGS ${CMAKE_CURRENT_SOURCE_DIR}/${file} -f markdown_github+tex_math_dollars -t html -s --mathjax --css ${CMAKE_SOURCE_DIR}/pandoc.css -o ${OUTPUT_NAME}.html
-			               DEPENDS ${file} ${CMAKE_SOURCE_DIR}/pandoc.css)
+			               COMMAND pandoc ARGS -H ${CMAKE_SOURCE_DIR}/mathjax.html  ${CMAKE_CURRENT_SOURCE_DIR}/${file} -f markdown_github+tex_math_dollars -t html -s --mathjax --css ${CMAKE_SOURCE_DIR}/pandoc.css -o ${OUTPUT_NAME}.html
+			               DEPENDS ${file} ${CMAKE_SOURCE_DIR}/pandoc.css ${CMAKE_SOURCE_DIR}/mathjax.html)
 		set(NOTES_DEPEND ${NOTES_DEPEND} "${OUTPUT_NAME}.html")
 	endforeach()
 
