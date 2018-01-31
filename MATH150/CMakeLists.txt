@@ -1,1 +1,1 @@
-add_notes(NAME MATH150 FILES "2017-08-25 Class 01.md")
+add_notes(NAME MATH150 FILES "2017-08-25 Class 01.md" "2017-09-26 Class 08.md" "2017-10-03 Class 09.md" "2017-10-10 Class 10.md")

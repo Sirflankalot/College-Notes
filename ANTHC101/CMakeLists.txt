@@ -1,1 +1,1 @@
-add_notes(NAME ANTHC101 FILES test.md)
+add_notes(NAME ANTHC101 FILES test.md Anthro Test Notes.md)

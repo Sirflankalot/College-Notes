@@ -1,1 +1,1 @@
-add_notes(NAME CS127)
+add_notes(NAME CS127 "csci_opertunities.md")

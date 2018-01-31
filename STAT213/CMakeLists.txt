@@ -1,1 +1,14 @@
-add_notes(NAME STAT213 FILES "2017-09-18 Class 07.md" "2017-09-25 Class 08.md")
+add_notes(NAME STAT213 FILES 
+	"2017-09-18 Class 07.md"
+	"2017-09-25 Class 08.md"
+	"2017-09-27 Class 09.md"
+	"2017-10-02 Class 10.md"
+	"2017-10-04 Class 11.md"
+	"2017-10-11 Class 12.md"
+	"2017-10-18 Class 14.md"
+	"2017-10-23 Class 15.md"
+	"2017-10-25 Class 16.md"
+	"2017-10-30 Class 17.md"
+	"2017-11-01 Class 18.md"
+	"2017-11-06 Class 19.md"
+	"2017-11-13 Class 20.md")
